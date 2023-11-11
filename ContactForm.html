@@ -1,0 +1,69 @@
+
+<html>
+<head>
+<style>
+.abc {
+      color: #661400;
+    padding: 350px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+   background: linear-gradient(to top left, #ff9933 -1%, #ff6600 96%);
+      font-family: var(--font-primary, sans-serif);
+}
+.abc:hover{
+ background: linear-gradient(to left, #ff9933 -1%, #ff3300 96%);
+  
+}
+</style>
+<title>Contact us</title>
+<link rel="stylesheet" href="Contact_css.css">
+</head>
+<body>
+<div style="background-color:black">
+
+<hr>
+
+</div>
+<div class="abc">
+<a href="index.html">
+<img src="images/back.jpg" style="width:8%;padding:3px; hight:8%;padding-top:4px;margin-left:-135px;float:left">
+</a><h2>Our Address :<h2>
+<h3>Nandawan, Nagpur, State-Maharashatra 440009</h3>
+
+</div>
+
+<section>
+  <div class="container">
+  
+    <form action="#" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Message</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+<script src="contact_js.js"></script>
+
+</body>
+</html>
